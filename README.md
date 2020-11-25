@@ -93,4 +93,34 @@ Here are some numbers that represent the period of how often the bot should refr
 - 60000 = every 1 min
 
 
-### 13. Keep only one application and one resource at a time, otherwise you will be charged...
+### 13. Adding PO for members
+
+Modify the ``po-shard-data.json`` file and add the following data:
+
+``
+  {
+    "Name": "User 3",
+    "Flag": ":flag_us:",
+    "SWGOH": "<https://swgoh.gg/p/122235729/>",
+    "UTC": "04:00"
+  }
+``
+
+![ScreenShot](assets/working-bot.png)
+
+### 14. Adding PO for pest
+
+Same format but you can add a different discord emoji on flag param:
+
+``
+  {
+    "Name": "Pest user 3",
+    "Flag": ":poop:",
+    "SWGOH": "<https://swgoh.gg/p/123456789/>",
+    "UTC": "15:00"
+  }
+``
+
+![ScreenShot](assets/working-pest-bot.png)
+
+### 15. Keep only one application and one resource at a time, otherwise you will be charged...
