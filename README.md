@@ -120,12 +120,19 @@ Here are some numbers that represent the period of how often the bot should refr
 
 Modify the ``po-shard-data.json`` file and add the following data:
 
+|Variable Name| Description                             |
+|-------------|-----------------------------------------|
+|"Name" | The Username|
+|"Flag" | emoji or flag icon|
+|"SWGOH" | the link to swgoh.gg|
+|"UTC" | UTC time of his PO - this can be found on swgoh.gg|
+
 ```json
   {
-    "Name": "User 3",
+    "Name": "Username",
     "Flag": ":flag_us:",
     "SWGOH": "<https://swgoh.gg/p/122235729/>",
-    "UTC": "04:00"
+    "UTC": "04:00" 
   }
 ```
 
@@ -133,11 +140,19 @@ Modify the ``po-shard-data.json`` file and add the following data:
 
 ### 15. Adding PO for pest
 
-Same format but you can add a different discord emoji on flag param:
+
+Modify the ``po-pest-data.json`` file and add the following data:
+
+|Variable Name| Description                             |
+|-------------|-----------------------------------------|
+|"Name" | The Enemy Username|
+|"Flag" | emoji or flag icon|
+|"SWGOH" | the link to swgoh.gg|
+|"UTC" | UTC time of his PO - this can be found on swgoh.gg|
 
 ```json
   {
-    "Name": "Pest user 3",
+    "Name": "Enemy",
     "Flag": ":poop:",
     "SWGOH": "<https://swgoh.gg/p/123456789/>",
     "UTC": "15:00"
