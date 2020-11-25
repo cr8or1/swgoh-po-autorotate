@@ -2,14 +2,5 @@
   "name": "simple-swgoh-po-arena",
   "description": "Simple SWGOH PO autorotate Shard Bot",
   "repository": "https://github.com/cr8or1/swgoh-po-autorotate",
-  "keywords": ["node", "express"],
-  "repository": {
-    "url": "https://github.com/cr8or1/swgoh-po-autorotate"
-  },
-  "buildpacks": [
-    {
-      "url": "https://github.com/cr8or1/swgoh-po-autorotate"
-    }
-  ],
-  "stack": "heroku-20"
+  "keywords": ["node", "express", "static"]
 }
