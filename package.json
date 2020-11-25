@@ -1,6 +1,6 @@
 {
   "name": "swgoh-po-fleet-bb8",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Automatically updating SWGOH payout bot for Discord",
   "main": "node bot.js",
   "dependencies": {

@@ -1,6 +1,0 @@
-{
-  "name": "simple-swgoh-po-arena",
-  "description": "Simple SWGOH PO autorotate Shard Bot",
-  "repository": "https://github.com/cr8or1/swgoh-po-autorotate",
-  "keywords": ["node", "express", "static"]
-}
