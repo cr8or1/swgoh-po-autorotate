@@ -50,7 +50,7 @@
 
 ### 8. Create a discord bot and invite it to your shard discord server
 
-Visit discord developer url [![URL](https://discord.com/developers/applications)](Discord developer URL). Here you will create your own shard bot.
+Visit discord developer url [a link](https://discord.com/developers/applications) . Here you will create your own shard bot.
 
 After you login with your discord username and password, you can create a new application.
 
