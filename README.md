@@ -32,23 +32,23 @@
 ![ScreenShot](assets/create-app.png)
 
 
-## 4. Once you created the app you need to connect with your github account
+### 4. Once you created the app you need to connect with your github account
 
 ![ScreenShot](assets/connect-to-github.png)
 
-### 4. After you successfully connected you can deploy on heroku by pressing `Deploy Branch` button
+### 5. After you successfully connected you can deploy on heroku by pressing `Deploy Branch` button
 
 ![ScreenShot](assets/deploy-on-heroku.png)
 
-### 5. Go to settings tab
+### 6. Go to settings tab
 
 ![ScreenShot](assets/go-to-settings-tab.png)
 
-### 6. Press `Reveal Config Vars` button and set environment variables
+### 7. Press `Reveal Config Vars` button and set environment variables
 
 ![ScreenShot](assets/set-env-variables.png)
 
-### 7. Create a discord bot and invite it to your shard discord server
+### 8. Create a discord bot and invite it to your shard discord server
 
 Visit discord developer url [![URL](https://discord.com/developers/applications)](Discord developer URL). Here you will create your own shard bot.
 
@@ -56,7 +56,7 @@ After you login with your discord username and password, you can create a new ap
 
 ![ScreenShot](assets/app-discord-create-new.png)
 
-### 8. Create the application bot
+### 9. Create the application bot
 
 ![ScreenShot](assets/app-add-bot.png)
 
@@ -64,7 +64,7 @@ After you add it you can change the name for your bot and upload an avatar. Here
 
 ![ScreenShot](assets/app-add-bot-token.png)
 
-### 9. Invite the bot on your discord server
+### 10. Invite the bot on your discord server
 You can do that by selecting OAuth2 from the menu and select the `bot` from Scopes selections
 
 ![ScreenShot](assets/setup-bot-on-discord-server.png)
@@ -74,16 +74,16 @@ Copy the url and paste it in a new tab where you’ll be prompted to choose whic
 
 ![ScreenShot](assets/add-bot-on-discord-server.png)
 
-### 10. MAKE SURE YOU HAVE DEVELOPER MODE ENABLED
+### 11. MAKE SURE YOU HAVE DEVELOPER MODE ENABLED
 You'll find Developer Mode in User Settings > Appearance.
 
 ![ScreenShot](assets/discord-developer-mode.jpg)
 
-### 11. Copy discord id for each channel where you want the bot to post
+### 12. Copy discord id for each channel where you want the bot to post
 
 ![ScreenShot](assets/discord-copy-id.png)
 
-### 12. Time period
+### 13. Time period
 Here are some numbers that represent the period of how often the bot should refresh the PO
 
 - 3600000 = every 1 hour
@@ -93,7 +93,7 @@ Here are some numbers that represent the period of how often the bot should refr
 - 60000 = every 1 min
 
 
-### 13. Adding PO for members
+### 14. Adding PO for members
 
 Modify the ``po-shard-data.json`` file and add the following data:
 
@@ -108,7 +108,7 @@ Modify the ``po-shard-data.json`` file and add the following data:
 
 ![ScreenShot](assets/working-bot.png)
 
-### 14. Adding PO for pest
+### 15. Adding PO for pest
 
 Same format but you can add a different discord emoji on flag param:
 
@@ -123,4 +123,4 @@ Same format but you can add a different discord emoji on flag param:
 
 ![ScreenShot](assets/working-pest-bot.png)
 
-### 15. Keep only one application and one resource at a time, otherwise you will be charged...
+### 16. Keep only one application and one resource at a time, otherwise you will be charged...
