@@ -62,7 +62,7 @@ After you login with your discord username and password, you can create a new ap
 
 ### 10. Change the name for your bot or/and upload an avatar. 
 
-Here you will need to copy and save the ``bot token`` that you need to add it on heroku in `Config Vars`
+Here you will need to copy and save the `bot token` that you need to add it on heroku in `Config Vars`
 
 ![ScreenShot](assets/app-add-bot-token.png)
 
@@ -72,7 +72,7 @@ You can do that by selecting OAuth2 from the menu and select the `bot` from Scop
 ![ScreenShot](assets/setup-bot-on-discord-server.png)
 
 Copy the url and paste it in a new tab where you’ll be prompted to choose which server the bot should join. 
-(```!!! You need to be and admin of that server to be able to invite it on that server !!!```)
+(`!!! You need to be and admin of that server to be able to invite it on that server !!!`)
 
 ![ScreenShot](assets/add-bot-on-discord-server.png)
 
@@ -99,14 +99,14 @@ Here are some numbers that represent the period of how often the bot should refr
 
 Modify the ``po-shard-data.json`` file and add the following data:
 
-``
+```json
   {
     "Name": "User 3",
     "Flag": ":flag_us:",
     "SWGOH": "<https://swgoh.gg/p/122235729/>",
     "UTC": "04:00"
   }
-``
+```
 
 ![ScreenShot](assets/working-bot.png)
 
@@ -114,14 +114,14 @@ Modify the ``po-shard-data.json`` file and add the following data:
 
 Same format but you can add a different discord emoji on flag param:
 
-``
+```json
   {
     "Name": "Pest user 3",
     "Flag": ":poop:",
     "SWGOH": "<https://swgoh.gg/p/123456789/>",
     "UTC": "15:00"
   }
-``
+```
 
 ![ScreenShot](assets/working-pest-bot.png)
 
