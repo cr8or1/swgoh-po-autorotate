@@ -1,0 +1,21 @@
+{
+  "name": "swgoh-po-fleet-bb8",
+  "version": "1.0.0",
+  "description": "Automatically updating SWGOH payout bot for Discord",
+  "main": "node bot.js",
+  "dependencies": {
+    "discord.js": "^12.5.0",
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "12.16.1"
+  },
+  "repository": {
+    "url": "https://github.com/cr8or1/swgoh-po-squad"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "express"
+  ]
+}
