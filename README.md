@@ -94,6 +94,8 @@ Now after you have the bot all setup we can go back to heroku and start adding t
 
 On this step you need to add the following parameters that are different for everyone:
 
+|Variable Name| Description                             |
+|-------------|-----------------------------------------|
 |botToken | The Bot Token you got it on #8|
 |channelIdShard| Discord id of the channel where you want to have the bot showing the PO for your members - check number #11|
 |channelIdPest| Discord id of the channel where you want to have the bot showing the PO for your pest/enemies - check number #11|
