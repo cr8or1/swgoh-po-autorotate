@@ -1,0 +1,1 @@
+# swgoh-po-autorotate
