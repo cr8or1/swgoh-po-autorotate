@@ -2,7 +2,7 @@
 
 ## Deploy straight to Heroku ( Free 24/7 )
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/cr8or1/swgoh-po-autorotate))
 
 
 ## Configuration
