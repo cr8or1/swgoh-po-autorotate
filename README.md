@@ -3,14 +3,14 @@
 
 ## Configuration
 
-### Set environment variables:
+### The environment variables - Config vars for Heroku:
 
 
 |Variable Name| Description                             | Notes |
 |-------------|-----------------------------------------|------ |
-|botToken | Bot Token  -  - check number #10      | Required|
-|channelIdShard| Discord id of the channel where you want to have the bot showing the PO for your members - check number #12|  Required|
-|channelIdPest| Discord id of the channel where you want to have the bot showing the PO for your pest/enemies - check number #12| Required|
+|botToken | Bot Token  -  - check number #8      | Required|
+|channelIdShard| Discord id of the channel where you want to have the bot showing the PO for your members - check number #10|  Required|
+|channelIdPest| Discord id of the channel where you want to have the bot showing the PO for your pest/enemies - check number #10| Required|
 |thumbnail | Here you can put an image/avatar of the bot. If you don't want to have an avatar just put ' '| Required|
 |url | the url of the heroku page. you can get it by pressing on the open app on top right of this page| Required|
 |timePeriod | how often the bot should refresh the PO - check number #13| Required|
