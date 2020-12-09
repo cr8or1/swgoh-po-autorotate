@@ -61,9 +61,11 @@ Here you will need to copy and save the `bot token` that you need to add it on h
 ![ScreenShot](assets/app-add-bot-token.png)
 
 ### 9. Invite the bot on your discord server
-You can do that by selecting OAuth2 from the menu and select the `bot` from Scopes selections
+You can do that by selecting OAuth2 from the menu and select the `bot` from Scopes selections + you need to give him administrative rights or send message
 
 ![ScreenShot](assets/setup-bot-on-discord-server.png)
+
+![ScreenShot](assets/setup-bot-permission-discord-server.png)
 
 Copy the url and paste it in a new tab where you’ll be prompted to choose which server the bot should join. 
 (`!!! You need to be and admin of that server to be able to invite it on that server !!!`)
